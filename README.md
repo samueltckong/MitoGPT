@@ -1,4 +1,3 @@
-````markdown
 # MitoGPT - DNABERT-2 Fine Tuning for Human Mitochondrial Gene Tasks
 
 This repository contains the complete data, training, and analysis pipeline for fine tuning the DNABERT-2 genomic foundation model on curated human mitochondrial sequence tasks. The primary supervised task is human mitochondrial gene type classification, where sequence windows are assigned to one of three classes: coding sequence (cds), ribosomal RNA (rRNA), or transfer RNA (tRNA).
@@ -107,7 +106,6 @@ These files allow reconstruction of the exact tokenizer and model configuration 
     "eval_steps_per_second": 8.791,
     "epoch": 3.0
   }
-````
 
 These values summarize performance after three epochs of fine tuning.
 
@@ -346,5 +344,6 @@ For academic use, appropriate references may include:
 * A MitoGPT report or manuscript describing the broader context of mitochondrial modeling, once available.
 
 When a canonical citation format is finalized, a BibTeX entry can be added to this section.
+
 
 ---
